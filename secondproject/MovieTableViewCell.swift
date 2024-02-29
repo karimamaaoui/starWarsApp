@@ -9,10 +9,12 @@
 import UIKit
 
 class MovieTableViewCell: UITableViewCell {
-
     @IBOutlet weak var titleLabel: UILabel!
     
+
     @IBOutlet weak var directorLabel: UILabel!
+    @IBOutlet weak var producerLAbel: UILabel!
+    @IBOutlet weak var dateLabel: UIView!
     
-    @IBOutlet weak var producerLabel: UILabel!
+    @IBOutlet weak var openingCrawlLabel: UILabel!
 }
